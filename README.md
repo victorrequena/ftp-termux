@@ -4,5 +4,5 @@ pkg install python
 python -m pip install pyftpdlib
 pkg install nano
 termux-setup-storage
-touch ftpserver.py
-nano ftpserver.py
+Inicie ftpserver.py
+Para poner en segundo plano python ftpserver.py &
