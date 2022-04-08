@@ -11,10 +11,11 @@ FTP por python requiere un modulo pip llamado pyftpdlib
 python -m pip install pyftpdlib
 ```
 ```sh
-pkg install nano
-```
-```sh
 termux-setup-storage
+```
+De permisos de ejecion al archivo ftpserver
+```sh
+chmod +x ftpserver.py
 ```
 Inicie ftpserver.py
 ```sh 
